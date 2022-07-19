@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(20, 74, 103);
+    padding: 10px;
+    max-height: 18px;
+}
+
+.item a {
+    margin: 10px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.item a:hover{
+    color: #e37309;
+}
+
+.item a.activeLink {
+    color: #e9a671;
+}
+.signUp {
+    color: rgb(110, 156, 177);
+    font-size: 16px;
+    font-weight: 600
+}
+
+.signUp:hover {
+    color: rgb(42, 140, 183);
+}

@@ -1,0 +1,92 @@
+.main {
+    border-radius: 8px;
+    display: flex;
+    min-height: 300px;
+    overflow: hidden;
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.setting {
+    background: #c0def0;
+    padding: 0 24px;
+    width: 244px;
+}
+
+.choose {
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+    height: 36px;
+    justify-content: center;
+    line-height: 17px;
+    margin: 20px 0 45px;
+    text-align: center;
+    width: 196px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.range {
+
+}
+
+.range h3 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #2D2E46;
+}
+
+.active {
+    align-items: center;
+    background: #568aae;
+    border-radius: 0 2px 2px 0;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.inactive {
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 2px;
+    color: #2D2E46;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+}
+
+.pack {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 48px;
+    width: 100%;
+}
+.setting h3 {
+    margin: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #285062;
+}
+
+.userChooseButton {
+    display: flex;
+}
+
+.userChooseButton button {
+    margin: 5px;
+}

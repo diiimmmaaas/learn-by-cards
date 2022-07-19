@@ -1,0 +1,35 @@
+
+.App {
+    background: linear-gradient(180deg, #c0d2e2 0%, #3e597c 100%);
+    height: 100%;
+    min-height: 100vh;
+    padding: 5px 10px;
+}
+
+.smallContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F9F9FE;
+    border-radius: 8px;
+    margin: 50px auto;
+    padding: 25px 33px 35px;
+    position: relative;
+    text-align: center;
+    max-width: 413px;
+    min-height: 450px;
+}
+
+.formContainer {
+    max-width: 210px;
+}
+.changeTheme{
+    cursor: pointer;
+}
+
+@media (max-width: 413px) {
+    .smallContainer {
+        width: 90vw;
+    }
+}

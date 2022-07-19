@@ -1,0 +1,19 @@
+.cardsContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+.pageTitle {
+    align-self: flex-start;
+    color: white;
+    margin: 20px 0 0 0;
+}
+
+.addCardsBtn {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 20px 20px;
+}

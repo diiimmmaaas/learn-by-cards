@@ -1,0 +1,22 @@
+.forgot {
+    display: flex;
+    justify-content: end;
+    color: rgb(110, 156, 177);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.forgot:hover {
+    color: rgb(42, 140, 183);
+}
+
+.remember {
+    color: #202124;
+}
+
+.recommend {
+    font-size: 10px;
+    color: #202124;
+    opacity: 0.8;
+}
